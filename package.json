@@ -1,0 +1,38 @@
+{
+  "name": "request-header-parser-ms-api",
+  "version": "1.0.0",
+  "description": "free code camp request header parser microservice api",
+  "engines": {
+    "node": "8.2.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyawzintun/req-header-parser-ms.git"
+  },
+  "keywords": [
+    "fcc",
+    "request",
+    "header",
+    "parser",
+    "microservice"
+  ],
+  "author": "KZT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyawzintun/req-header-parser-ms/issues"
+  },
+  "homepage": "https://github.com/kyawzintun/req-header-parser-ms#readme",
+  "dependencies": {
+    "cors": "2.8.4",
+    "express": "4.16.2",
+    "useragent": "2.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.12.1"
+  }
+}
