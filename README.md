@@ -9,4 +9,4 @@ $ npm install
 $ npm start
 ```
 
-App should now be running on [localhost:5000](http://localhost:5000/timestamp-ms/123).
+App should now be running on [localhost:5000](http://localhost:5000/).

@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 
 app.use(cors());
 
-app.get('/req-header-parser', (req, res) => {
+app.get('/', (req, res) => {
   let header = req.headers;
   let agent = useragent.parse(header['user-agent']);
   let obj = {
